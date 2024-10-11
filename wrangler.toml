@@ -1,0 +1,13 @@
+name = "url-shortener"
+type = "javascript"
+
+main = "src/index.ts"
+
+kv_namespaces = [
+  { binding = "url-shortener", id = "39ed758d6b52419a9c4658a4c781b38a", preview_id = "39ed758d6b52419a9c4658a4c781b38a" }
+]
+
+[env.dev]
+kv_namespaces = [
+  { binding = "url-shortener", id = "39ed758d6b52419a9c4658a4c781b38a", preview_id = "39ed758d6b52419a9c4658a4c781b38a" }
+]
